@@ -8,7 +8,7 @@ export default defineConfig({
     process.env.HOSTING_ENV === 'csb'
       ? {
           hmr: {
-            port: 443,
+            clientPort: 443,
           },
         }
       : {},
